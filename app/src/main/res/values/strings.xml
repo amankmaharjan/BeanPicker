@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BeanPIckerDemoApp</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="empty_not_saved">User not saved because it is empty.</string>
+</resources>
