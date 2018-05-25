@@ -88,4 +88,11 @@ public class MenuActivity extends AppCompatActivity {
         Log.d("user remove", "RequestRemoveUser");
         mUserViewModel.removeAll();
     }
+    @OnClick(R.id.navBtn)
+    public void requestNavigation() {
+        Log.d("user remove", "RequestNavUser");
+        Intent intent = new Intent(getApplicationContext(),BottomNavigationActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+    }
 }
